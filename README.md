@@ -1,105 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhaya Bikram Shahi - Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: #f7f7f7;
-            color: #333;
-        }
-        .header, .skills, .contact {
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            background: #fff;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .header h1 {
-            text-align: center;
-            font-size: 36px;
-            color: #4C51BF;
-        }
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .skill {
-            flex: 1 1 30%;
-            text-align: center;
-            padding: 20px;
-            background: #f0f0f0;
-            border-radius: 10px;
-        }
-        .skills img {
-            width: 50px;
-            height: 50px;
-        }
-        .contact {
-            text-align: center;
-            background: #4C51BF;
-            color: #fff;
-            border-radius: 8px;
-        }
-        .contact a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
 
-    <!-- Header Section -->
-    <div class="header" data-aos="fade-up">
-        <h1>Hi 👋, I'm Abhaya Bikram Shahi</h1>
-        <h3>A passionate frontend developer from Nepal.</h3>
-        <p>Currently learning <strong>React JS</strong> and looking to collaborate on <strong>Clothing Store Website</strong></p>
-    </div>
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/theabhayabikramshahi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhaya-bikram-shaho) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@_abhayaa) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@code-with-abhaya) 
 
-    <!-- Skills Section -->
-    <div class="skills" data-aos="fade-up">
-        <div class="skill" data-aos="flip-left">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5"/>
-            <p>HTML</p>
-        </div>
-        <div class="skill" data-aos="flip-left">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3"/>
-            <p>CSS</p>
-        </div>
-        <div class="skill" data-aos="flip-left">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript"/>
-            <p>JavaScript</p>
-        </div>
-        <div class="skill" data-aos="flip-left">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React"/>
-            <p>React</p>
-        </div>
-    </div>
+# 💻 Tech Stack:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=abhayabikramshahi&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=abhayabikramshahi&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=abhayabikramshahi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-    <!-- Contact Section -->
-    <div class="contact" data-aos="zoom-in">
-        <h3>Connect with me:</h3>
-        <p>
-            <a href="https://linkedin.com/in/abhaya-bikram-shahi">LinkedIn</a> |
-            <a href="https://twitter.com/abhaya_dev">Twitter</a> |
-            <a href="https://github.com/developer-abhaya">GitHub</a>
-        </p>
-    </div>
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=abhayabikramshahi&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-    <!-- Script to Initialize AOS (Animate on Scroll) -->
-    <script>
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-            delay: 300
-        });
-    </script>
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
 
-</body>
-</html>
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=abhayabikramshahi&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=abhayabikramshahi&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
