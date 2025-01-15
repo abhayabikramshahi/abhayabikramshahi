@@ -1,39 +1,105 @@
-<h1 align="center">Hi 👋, I'm Abhaya Bikram Shahi</h1>
-<h3 align="center">A passionate frontend developer from Nepal.</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhaya Bikram Shahi - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+        .header, .skills, .contact {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #4C51BF;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill {
+            flex: 1 1 30%;
+            text-align: center;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+        }
+        .skills img {
+            width: 50px;
+            height: 50px;
+        }
+        .contact {
+            text-align: center;
+            background: #4C51BF;
+            color: #fff;
+            border-radius: 8px;
+        }
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=developer-abhaya&label=Profile%20views&color=0e75b6&style=flat" alt="developer-abhaya" /> </p>
+    <!-- Header Section -->
+    <div class="header" data-aos="fade-up">
+        <h1>Hi 👋, I'm Abhaya Bikram Shahi</h1>
+        <h3>A passionate frontend developer from Nepal.</h3>
+        <p>Currently learning <strong>React JS</strong> and looking to collaborate on <strong>Clothing Store Website</strong></p>
+    </div>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=developer-abhaya" alt="developer-abhaya" /></a> </p>
+    <!-- Skills Section -->
+    <div class="skills" data-aos="fade-up">
+        <div class="skill" data-aos="flip-left">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5"/>
+            <p>HTML</p>
+        </div>
+        <div class="skill" data-aos="flip-left">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3"/>
+            <p>CSS</p>
+        </div>
+        <div class="skill" data-aos="flip-left">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+            <p>JavaScript</p>
+        </div>
+        <div class="skill" data-aos="flip-left">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React"/>
+            <p>React</p>
+        </div>
+    </div>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+    <!-- Contact Section -->
+    <div class="contact" data-aos="zoom-in">
+        <h3>Connect with me:</h3>
+        <p>
+            <a href="https://linkedin.com/in/abhaya-bikram-shahi">LinkedIn</a> |
+            <a href="https://twitter.com/abhaya_dev">Twitter</a> |
+            <a href="https://github.com/developer-abhaya">GitHub</a>
+        </p>
+    </div>
 
-- 🔭 I’m currently working on **Abhaya Solutions**
+    <!-- Script to Initialize AOS (Animate on Scroll) -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            delay: 300
+        });
+    </script>
 
-- 🌱 I’m currently learning **React Js**
-
-- 👯 I’m looking to collaborate on **Clothing Store website**
-
-- 👨‍💻 All of my projects are available at [abhayabikramshahi.com](abhayabikramshahi.com)
-
-- 📝 I regularly write articles on [abs-news.github.io](abs-news.github.io)
-
-- 💬 Ask me about **HTML,CSS,JS,PYTHON**
-
-- 📫 How to reach me **abhayabikramshahiofficial@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/abhaya-bikram-shahi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abhaya-bikram-shahi" height="30" width="40" /></a>
-<a href="https://fb.com/programmer.abhaya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="programmer.abhaya" height="30" width="40" /></a>
-<a href="https://instagram.com/abhayaa.np" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="abhayaa.np" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/code-with-abhaya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="code-with-abhaya" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=developer-abhaya&show_icons=true&locale=en&layout=compact" alt="developer-abhaya" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=developer-abhaya&show_icons=true&locale=en" alt="developer-abhaya" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=developer-abhaya&" alt="developer-abhaya" /></p>
+</body>
+</html>
